@@ -84,6 +84,7 @@ function cashMachine(saque) {
         total += dois
     }
     return total + "e restou R$" + saque
+}
     
 // ------------------------------------------------------------------------------------
 
@@ -113,7 +114,8 @@ function getDiagonal(array) {
         for (j = 0; j < array.length; j++) {
             if (j === i) {
                 diagonal.push(array[i][j] )
-              }
             }
-        } return diagonal.join(', ')
-    }
+        }
+    } 
+    return diagonal.join(', ')
+}
