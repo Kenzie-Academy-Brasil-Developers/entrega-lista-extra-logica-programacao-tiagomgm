@@ -116,4 +116,4 @@ function getDiagonal(array) {
               }
             }
         } return diagonal.join(', ')
-}
+    }
